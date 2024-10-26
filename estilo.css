@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+}
+
+.topo{
+    width: 100%;
+    font-size: 22px;
+    font-family: sans-serif;
+    background: #4710c1;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.topo div{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.topo span{
+    margin: 0 30px;
+}
+
+.topo a{
+    color: #4710c1;
+    background: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 6px;
+    padding: 7px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: #1f192b 2px 2px 10px;
+}
+
+a:hover, p a:hover {
+    background-color: #190544;
+    color: white;
+    font-size: 18px;
+}
+
+.capa{
+    width: 100%;
+}
+
+.secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.secao h2{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.secao p{
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 30px;
+    margin: 12px 0;
+}
+ .secao img{
+    width: 100%;
+ }
+
+ .link-hbo a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: #28076e;
+    box-shadow: #939393 4px 2px 10px;
+    padding: 5px;
+    border-radius: 15px;
+ }
+
+ .galeria{
+    display: flex;
+    overflow: scroll;
+    margin: 0 auto 20px auto;
+ }
+
+ .galeria img{
+    width: 315px;
+    margin: 10px;
+    opacity: 75%;
+ }
+
+ .galeria img:hover {
+    border: #4710c1 solid 3px ;
+    margin: 6px;
+    opacity: 110%;
+ }
+
+ .imagem-sombra{
+    box-shadow: 10px 10px 10px #939393;
+ }
+
+ .informacao{
+    margin: 15px auto
+ }
+
+ .rodape{
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    background: #4710c1;
+    color: #fff;
+    padding: 12px 0;
+ }
+
+ .topo-fixo {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+ }
+
+ .instagram a {
+    background: linear-gradient( rgb(255, 111, 0), rgb(252, 8, 195));
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+ }
+
+
+ .instagram p a::before {
+   content: "";
+   background: url(img/social_15466200.png);
+   background-size: 20px 20px;
+   width: 20px;
+   height: 20px;
+ }
